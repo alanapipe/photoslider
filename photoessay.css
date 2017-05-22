@@ -1,0 +1,54 @@
+@import "compass/css3";
+
+
+
+.body {
+	 margin-left: auto;
+  margin-right:auto;
+}
+
+.before_after_slider
+{
+    position: absolute;
+    width:600px;
+    height:600px;
+}
+
+.before_after_slider {
+  position: relative;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:8%;
+  margin-bottom:5%;
+  width: 400px;
+  height: 400px;
+  & > * {
+    position: absolute;
+  }
+}
+
+#pool, #conflict, #toys {
+    position: relative;
+    width:600px;
+    height:400px;
+    margin-left:30%;
+  margin-right:auto;
+  margin-top:8%;
+  margin-bottom:5%;
+}
+
+
+
+.black_white  {
+  overflow: hidden;
+  position:absolute;
+  top:0px;
+  left:0px;
+  z-index: 1;
+}
+
+p {
+	font-size: .8em;
+	margin-top: .25%;
+	margin-bottom: 2%;
+}
