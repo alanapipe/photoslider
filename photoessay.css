@@ -3,25 +3,28 @@
 
 
 .body {
-	 margin-left: auto;
+  font-family: 'Roboto', sans-serif;
+	margin-left: auto;
   margin-right:auto;
+  
 }
 
-.before_after_slider
+/*.before_after_slider
 {
     position: absolute;
     width:600px;
     height:600px;
-}
+}*/
 
 .before_after_slider {
+  width: 400px;
+  height: 400px;
   position: relative;
   margin-left: auto;
   margin-right:auto;
-  margin-top:8%;
-  margin-bottom:5%;
-  width: 400px;
-  height: 400px;
+  margin-top:4%;
+  margin-bottom:4%;
+  
   & > * {
     position: absolute;
   }
@@ -31,10 +34,10 @@
     position: relative;
     width:600px;
     height:400px;
-    margin-left:30%;
+    margin-left:20%;
   margin-right:auto;
-  margin-top:8%;
-  margin-bottom:5%;
+  margin-top:4%;
+  margin-bottom:8%;
 }
 
 
@@ -47,8 +50,36 @@
   z-index: 1;
 }
 
+h1 {
+  font-family: 'Roboto', sans-serif;
+   margin-left: 20%;
+  margin-right: 20%;
+}
+
+h6 {
+  font-family: 'Roboto', sans-serif;
+  margin-left:20%;
+}
+
 p {
+  font-family: 'Roboto', sans-serif;
 	font-size: .8em;
 	margin-top: .25%;
-	margin-bottom: 2%;
+	margin-bottom: 4%;
+}
+
+.copy {
+  font-family: 'Roboto', sans-serif;
+  font-size:1em;
+  margin-top:6%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+a {
+  text-decoration: none;
+  color:brown;
+}
+.lede {
+  margin-top:3%;
 }
